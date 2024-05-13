@@ -11,6 +11,7 @@
 		76A2B5412BF24C3400A30D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B5402BF24C3400A30D36 /* ContentView.swift */; };
 		76A2B5432BF24C3600A30D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B5422BF24C3600A30D36 /* Assets.xcassets */; };
 		76A2B5462BF24C3600A30D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B5452BF24C3600A30D36 /* Preview Assets.xcassets */; };
+		76A2B54D2BF24D2400A30D36 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B54C2BF24D2400A30D36 /* samplecharacter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		76A2B5402BF24C3400A30D36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76A2B5422BF24C3600A30D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76A2B5452BF24C3600A30D36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76A2B54C2BF24D2400A30D36 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */,
 				76A2B5402BF24C3400A30D36 /* ContentView.swift */,
+				76A2B54C2BF24D2400A30D36 /* samplecharacter.json */,
 				76A2B5422BF24C3600A30D36 /* Assets.xcassets */,
 				76A2B5442BF24C3600A30D36 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A2B5462BF24C3600A30D36 /* Preview Assets.xcassets in Resources */,
+				76A2B54D2BF24D2400A30D36 /* samplecharacter.json in Resources */,
 				76A2B5432BF24C3600A30D36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
