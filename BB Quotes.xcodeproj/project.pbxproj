@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7696FA3B2BF27C6E00BBA54A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA3A2BF27C6E00BBA54A /* Constants.swift */; };
 		76A2B53F2BF24C3400A30D36 /* BB_QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */; };
 		76A2B5412BF24C3400A30D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B5402BF24C3400A30D36 /* ContentView.swift */; };
 		76A2B5432BF24C3600A30D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B5422BF24C3600A30D36 /* Assets.xcassets */; };
 		76A2B5462BF24C3600A30D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B5452BF24C3600A30D36 /* Preview Assets.xcassets */; };
 		76A2B54D2BF24D2400A30D36 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B54C2BF24D2400A30D36 /* samplecharacter.json */; };
+		76A2B54F2BF2528100A30D36 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B54E2BF2528100A30D36 /* Quote.swift */; };
+		76A2B5512BF252CB00A30D36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B5502BF252CB00A30D36 /* Character.swift */; };
+		76A2B5532BF278FC00A30D36 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B5522BF278FC00A30D36 /* FetchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7696FA3A2BF27C6E00BBA54A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		76A2B53B2BF24C3400A30D36 /* BB Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB_QuotesApp.swift; sourceTree = "<group>"; };
 		76A2B5402BF24C3400A30D36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76A2B5422BF24C3600A30D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76A2B5452BF24C3600A30D36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76A2B54C2BF24D2400A30D36 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		76A2B54E2BF2528100A30D36 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		76A2B5502BF252CB00A30D36 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		76A2B5522BF278FC00A30D36 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 			children = (
 				76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */,
 				76A2B5402BF24C3400A30D36 /* ContentView.swift */,
+				76A2B5522BF278FC00A30D36 /* FetchController.swift */,
+				76A2B54E2BF2528100A30D36 /* Quote.swift */,
+				76A2B5502BF252CB00A30D36 /* Character.swift */,
+				7696FA3A2BF27C6E00BBA54A /* Constants.swift */,
 				76A2B54C2BF24D2400A30D36 /* samplecharacter.json */,
 				76A2B5422BF24C3600A30D36 /* Assets.xcassets */,
 				76A2B5442BF24C3600A30D36 /* Preview Content */,
@@ -142,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A2B5412BF24C3400A30D36 /* ContentView.swift in Sources */,
+				76A2B54F2BF2528100A30D36 /* Quote.swift in Sources */,
 				76A2B53F2BF24C3400A30D36 /* BB_QuotesApp.swift in Sources */,
+				76A2B5532BF278FC00A30D36 /* FetchController.swift in Sources */,
+				76A2B5512BF252CB00A30D36 /* Character.swift in Sources */,
+				7696FA3B2BF27C6E00BBA54A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
