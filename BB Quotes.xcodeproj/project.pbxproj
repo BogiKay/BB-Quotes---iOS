@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7696FA3B2BF27C6E00BBA54A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA3A2BF27C6E00BBA54A /* Constants.swift */; };
+		7696FA3D2BF27E8A00BBA54A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA3C2BF27E8A00BBA54A /* ViewModel.swift */; };
+		7696FA3F2BF3FA8400BBA54A /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7696FA3E2BF3FA8400BBA54A /* QuoteView.swift */; };
 		76A2B53F2BF24C3400A30D36 /* BB_QuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */; };
 		76A2B5412BF24C3400A30D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2B5402BF24C3400A30D36 /* ContentView.swift */; };
 		76A2B5432BF24C3600A30D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2B5422BF24C3600A30D36 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		7696FA3A2BF27C6E00BBA54A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7696FA3C2BF27E8A00BBA54A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7696FA3E2BF3FA8400BBA54A /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		76A2B53B2BF24C3400A30D36 /* BB Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BB_QuotesApp.swift; sourceTree = "<group>"; };
 		76A2B5402BF24C3400A30D36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			children = (
 				76A2B53E2BF24C3400A30D36 /* BB_QuotesApp.swift */,
 				76A2B5402BF24C3400A30D36 /* ContentView.swift */,
+				7696FA3E2BF3FA8400BBA54A /* QuoteView.swift */,
+				7696FA3C2BF27E8A00BBA54A /* ViewModel.swift */,
 				76A2B5522BF278FC00A30D36 /* FetchController.swift */,
 				76A2B54E2BF2528100A30D36 /* Quote.swift */,
 				76A2B5502BF252CB00A30D36 /* Character.swift */,
@@ -156,9 +162,11 @@
 				76A2B5412BF24C3400A30D36 /* ContentView.swift in Sources */,
 				76A2B54F2BF2528100A30D36 /* Quote.swift in Sources */,
 				76A2B53F2BF24C3400A30D36 /* BB_QuotesApp.swift in Sources */,
+				7696FA3F2BF3FA8400BBA54A /* QuoteView.swift in Sources */,
 				76A2B5532BF278FC00A30D36 /* FetchController.swift in Sources */,
 				76A2B5512BF252CB00A30D36 /* Character.swift in Sources */,
 				7696FA3B2BF27C6E00BBA54A /* Constants.swift in Sources */,
+				7696FA3D2BF27E8A00BBA54A /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
